@@ -19,6 +19,7 @@ h1 {
   font-size: 28px;
   font-weight: 700;
   color: #2c3e50;
+  margin-bottom: 3rem;
 }
 header {
   width: 90%;
@@ -132,6 +133,11 @@ header section div input:checked + span {
 header section .icons {
   display: flex;
   gap: 8px;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+header section div:hover .icons {
+  opacity: 1;
 }
 header section .icons button {
   padding: 8px;
