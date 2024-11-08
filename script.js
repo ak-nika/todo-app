@@ -36,6 +36,7 @@ const addTask = () => {
     tasks.push(newTask);
     localStorage.setItem("tasks", JSON.stringify(tasks));
     renderTasks();
+    taskInput.value = "";
   }
 };
 
