@@ -125,10 +125,10 @@ header section div span::before {
 }
 header section div input:checked + span::before {
   width: 100%;
-  background-color: #b0b0b0;
+  background-color: #bbbbbb;
 }
 header section div input:checked + span {
-  color: #b0b0b0;
+  color: #bbbbbb;
 }
 header section .icons {
   display: flex;
